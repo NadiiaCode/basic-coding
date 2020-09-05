@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minion CSS</title>
+  </head>
+  <body>
+    <div class="minion">
+      <div class="body">
+        <div class="header"></div>
+        <div class="main">
+          <div class="big-pocket">
+            <div class="small-pocket"></div>
+          </div>
+          <div class="face">
+            <div class="glasses">
+              <div class="frame1">
+                <div class="eye1">
+                  <div class="small-eye1">
+                    <div class="retina1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame2"></div>
+              <div class="frame3"></div>
+              <div class="frame4">
+                <div class="eye2">
+                  <div class="small-eye2">
+                    <div class="retina2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame5"></div>
+              <div class="frame6"></div>
+            </div>
+          </div>
+          <div class="mouth">
+            <div class="teeth"></div>
+            <div class="tongue"></div>
+          </div>
+        </div>
+        <div class="bottom"></div>
+        <div class="straps">
+          <div class="strap1">
+            <div class="button1"></div>
+          </div>
+          <div class="strap2">
+            <div class="button2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hands">
+        <div class="h1"></div>
+        <div class="h2"></div>
+
+        <div class="hand1">
+          <div class="arm1"></div>
+          <div class="wrist1"></div>
+        </div>
+        <div class="hand2">
+          <div class="arm2"></div>
+          <div class="wrist2"></div>
+        </div>
+      </div>
+      <div class="pants">
+        <div class="leg1"></div>
+        <div class="leg2"></div>
+      </div>
+
+      <div class="shoes">
+        <div class="shoes1"></div>
+        <div class="shoes2"></div>
+      </div>
+    </div>
+
+    <style>
+      body {
+        background-color: black;
+        /* any background color that you like */
+        position: fixed;
+      }
+
+      .bottom {
+        width: 200px;
+        height: 60px;
+        top: 350px;
+        left: 200px;
+        position: absolute;
+        background-color: blue;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-top: 0;
+        border: 15px solid rgb(1, 1, 243);
+      }
+
+      .main {
+        width: 230px;
+        height: 200px;
+        top: 150px;
+        left: 200px;
+        position: absolute;
+        background-color: yellow;
+      }
+
+      .header {
+        width: 206px;
+        height: 100px;
+        position: absolute;
+        top: 26px;
+        left: 200px;
+        border-bottom: 0;
+        background-color: yellow;
+        border: 12px solid rgb(248, 248, 6);
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+      }
+
+      .big-pocket {
+        width: 110px;
+        height: 80px;
+        position: absolute;
+        top: 125px;
+        left: 57px;
+        background-color: blue;
+        border-radius: 12px;
+      }
+
+      .small-pocket {
+        width: 60px;
+        height: 33px;
+        top: 20px;
+        left: 16px;
+        position: absolute;
+        background-color: rgb(187, 3, 116);
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: 9px solid rgb(8, 73, 158);
+        border-top: 0;
+      }
+
+      .strap1 {
+        width: 77px;
+        height: 20px;
+        top: 250px;
+        left: 193px;
+        position: absolute;
+        background-color: blue;
+        transform: rotate(35deg);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .strap2 {
+        width: 83px;
+        height: 20px;
+        top: 250px;
+        left: 354px;
+        position: absolute;
+        background-color: blue;
+        transform: rotate(145deg);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .button1 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: 1px;
+        left: 63px;
+        background-color: rgb(7, 7, 97);
+        border: 2px solid rgb(198, 198, 243);
+      }
+
+      .button2 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: 1px;
+        left: 70px;
+        background-color: rgb(7, 7, 97);
+        border: 2px solid rgb(198, 198, 243);
+      }
+
+      .frame1 {
+        width: 75px;
+        height: 75px;
+        top: -46px;
+        left: 17px;
+        position: absolute;
+        border: 13px solid #e6cece;
+        border-radius: 50%;
+        background-color: transparent;
+        z-index: 2;
+      }
+
+      .eye1 {
+        width: 75px;
+        height: 40px;
+        top: 15px;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 20px;
+      }
+
+      .small-eye1 {
+        width: 30px;
+        height: 30px;
+        top: 7px;
+        left: 25px;
+        position: absolute;
+        background-color: #994b16;
+        border-radius: 50px;
+      }
+
+      .retina1 {
+        width: 15px;
+        height: 15px;
+        top: 6px;
+        left: 6px;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 2px rgb(41, 9, 9);
+      }
+
+      .frame2 {
+        width: 20px;
+        height: 18px;
+        top: -14px;
+        position: absolute;
+        left: -1px;
+        border-radius: 5px;
+        background-color: #cebeae;
+        z-index: 1;
+      }
+
+      .frame3 {
+        width: 20px;
+        height: 18px;
+        top: 3px;
+        left: -2px;
+        position: absolute;
+        border-radius: 4px;
+        background-color: #bbbb6e;
+        z-index: 1;
+      }
+
+      .frame4 {
+        width: 75px;
+        height: 75px;
+        top: -46px;
+        left: 112px;
+        border: 13px solid #e6cece;
+        border-radius: 50px;
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+      }
+
+      .eye2 {
+        width: 75px;
+        height: 40px;
+        top: 15px;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 20px;
+      }
+
+      .small-eye2 {
+        width: 30px;
+        height: 30px;
+        top: 7px;
+        left: 20px;
+        position: absolute;
+        background-color: #994b16;
+        border-radius: 50%;
+      }
+
+      .retina2 {
+        width: 15px;
+        height: 15px;
+        top: 6px;
+        left: 6px;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 2px rgb(41, 9, 9);
+      }
+
+      .frame5 {
+        width: 20px;
+        height: 18px;
+        left: 211px;
+        top: -14px;
+        position: absolute;
+        border-radius: 4px;
+        background-color: #cebeae;
+        z-index: 1;
+      }
+
+      .frame6 {
+        width: 20px;
+        height: 18px;
+        top: 3px;
+        left: 211px;
+        position: absolute;
+        border-radius: 4px;
+        background-color: #bbbb6e;
+        z-index: 1;
+      }
+
+      .mouth {
+        width: 110px;
+        height: 35px;
+        top: 65px;
+        left: 55px;
+        position: absolute;
+        background-color: #d80303;
+        border: 2px solid #c00808;
+        border-top: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+      }
+
+      .teeth {
+        width: 90px;
+        height: 10px;
+        top: 0;
+        left: 9px;
+        position: absolute;
+        background-color: rgb(255, 246, 230);
+        border-radius: 0 0 6px 6px;
+      }
+
+      .tongue {
+        width: 35px;
+        height: 15px;
+        top: 20px;
+        left: 38px;
+        position: absolute;
+        background-color: #ff0004;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border: 2px solid #b1070f;
+        border-bottom: 0;
+      }
+
+      .h1 {
+        width: 25px;
+        height: 100px;
+        top: 145px;
+        left: 155px;
+        position: absolute;
+        background-color: yellow;
+        transform: rotate(130deg);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .arm1 {
+        width: 0;
+        height: 0;
+        top: 129px;
+        left: 96px;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 40px solid #87878f;
+        transform: rotate(135deg);
+      }
+
+      .wrist1 {
+        width: 35px;
+        height: 35px;
+        top: 115px;
+        left: 83px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #5c5c5e;
+      }
+
+      .h2 {
+        width: 25px;
+        height: 100px;
+        top: 145px;
+        left: 450px;
+        position: absolute;
+        background-color: yellow;
+        transform: rotate(40deg);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+
+      .arm2 {
+        width: 0;
+        height: 0;
+        top: 123px;
+        left: 487px;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 40px solid #87878f;
+        transform: rotate(217deg);
+      }
+
+      .wrist2 {
+        width: 35px;
+        height: 35px;
+        top: 109px;
+        left: 500px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #5c5c5e;
+      }
+
+      .leg1 {
+        width: 30px;
+        height: 0;
+        top: 435px;
+        left: 261px;
+        position: absolute;
+        border-top: 70px solid blue;
+        border-left: 20px solid transparent;
+      }
+
+      .leg2 {
+        width: 30px;
+        height: 0;
+        top: 435px;
+        left: 318px;
+        position: absolute;
+        border-top: 70px solid blue;
+        border-right: 20px solid transparent;
+      }
+
+      .shoes1 {
+        width: 40px;
+        height: 15px;
+        top: 502px;
+        left: 272px;
+        position: absolute;
+        border-radius: 16px;
+        background-color: #626269;
+      }
+
+      .shoes2 {
+        width: 40px;
+        height: 15px;
+        top: 502px;
+        left: 316px;
+        position: absolute;
+        border-radius: 16px;
+        background-color: #626269;
+      }
+    </style>
+  </body>
+</html>
